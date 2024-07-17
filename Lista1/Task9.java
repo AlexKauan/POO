@@ -19,7 +19,7 @@ public class Task9 {
         switch (naipeCarta) {
             case 1:
                 cartas = ouros;
-                System.out.println(cartas[valorCarta - 1] + " " +"De " + "Ouro");
+                System.out.println(cartas[valorCarta - 1] + " " +"De " + "Ouros");
                 break;
             case 2:
                 cartas = paus;
