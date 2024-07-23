@@ -1,7 +1,5 @@
 package Aulas.Faculdade;
 
-import java.beans.XMLEncoder;
-
 public class DemoRegistroAcademico {
     public static void main(String[] args){
         RegistroAcademico michel = new RegistroAcademico();
