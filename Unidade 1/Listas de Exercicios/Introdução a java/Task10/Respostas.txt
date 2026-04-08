@@ -1,0 +1,20 @@
+1) "O caso default e requerido na instrucao de selecao switch."
+FALSO. O default e opcional. Ele so serve para tratar valores que nao casam com nenhum case.
+
+2) "A instrucao break e requerida no ultimo caso de uma instrucao de selecao switch."
+FALSO. No ultimo case, o break nao e necessario se nao houver mais codigo/casos depois.
+Mesmo assim, pode ser usado por clareza.
+
+3) "A expressao ((x > y)&&(a < b)) e verdadeira se (x > y) for verdadeiro ou (a < b) for verdadeira."
+FALSO. O operador && exige que as duas condicoes sejam verdadeiras ao mesmo tempo.
+Se apenas uma for verdadeira, a expressao inteira sera falsa.
+
+4) "Uma expressao contendo o operador || e verdadeira se um ou ambos de seus operandos forem verdadeiros."
+VERDADEIRO. Em Java, || (OU logico) resulta em true quando pelo menos um operando e true.
+
+5) "Para testar para uma serie de valores em uma instrucao switch, pode-se utilizar um hifen (-) entre os valores inicial e final da serie em um rotulo case."
+FALSO. Em Java nao existe sintaxe de intervalo com hifen em case (ex: case 1-5: nao existe).
+Voce precisa listar cases separados ou usar if/else, ou (no switch expression moderno) usar case 1,2,3: etc.
+
+6) "Listar casos consecutivamente sem instrucoes entre eles permite aos casos executar o mesmo conjunto de instrucoes."
+VERDADEIRO. Isso faz 'fall-through': varios cases apontam para o mesmo bloco de instrucoes (ate encontrar um break/return).
